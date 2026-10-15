@@ -37,7 +37,7 @@ import java.util.ArrayList;
 public class MainActivity extends Activity {
 
     private static final String DEFAULT_CLOUD_RUN_URL = "https://smart-eye-651852203203.us-central1.run.app";
-    private static final String REMOTE_CONFIG_URL = "https://raw.githubusercontent.com/royanic26-cmyk-cmyk/smart-eye-app/main/config.json";
+    private static final String REMOTE_CONFIG_URL = "https://raw.githubusercontent.com/royanic26-cmyk-cmyk/smart-eye-app/master/config.json";
 
     private static final String PREFS_NAME = "SmartEyeAuthPrefs";
     private static final String KEY_USER = "auth_username";

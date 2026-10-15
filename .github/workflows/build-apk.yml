@@ -1,4 +1,4 @@
-name: Build Smart Eye APK
+name: BuildAPK
 on: [push]
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: 8.5
-      - run: gradle assembleDebug --stacktrace
+      - run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: Smart-Eye-Avayar-APK

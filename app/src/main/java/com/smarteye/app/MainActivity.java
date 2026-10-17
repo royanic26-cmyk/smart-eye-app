@@ -1,4 +1,4 @@
-﻿package com.smarteye.app;
+package com.smarteye.app;
 
 import android.Manifest;
 import android.app.Activity;
